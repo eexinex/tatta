@@ -1,0 +1,110 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  min-height: 150vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.title{
+    text-align: left;
+}
+  
+nav {
+  background-color: #26d8de; /* Background color of the navigation bar */
+  padding: 100px;
+  display: flex;
+  justify-content: space-between; /* To push the title and button to the opposite sides */
+  align-items: center;
+  border-radius: 4dvi;
+  color: #f21111; /* Text color for the title and button */
+}
+
+.navbar-left h1 {
+  margin: 0;
+}
+
+.navbar-right a {
+    text-decoration: none;
+  background-color: #2d2bace0; /* Background color of the button */
+  color: #ffffff; /* Text color for the button */
+  border-radius: 5dvh;
+  padding: 1px 30px;
+  border-radius: 5dvh;
+  cursor: pointer;
+  transition: .5s ease;
+}
+  
+  .navbar-right a:hover{
+    background-color: #0edde8dd; /* Background color of the button */
+    color: #fff; /* Text color for the button */
+    border-radius: 5dvh;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+  }
+  
+
+  #song {
+      text-decoration: none;
+      color: #0a1074;
+  }
+  
+  h2 {
+    margin: 0;
+  }
+  
+  
+  img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  footer {
+    background-color: #a0a1d6;
+    padding: 50px;
+    border-radius: 5dvh;
+    text-align: center;
+  }
+
+
+
+  @import url(https://fonts.google.com/specimen/Baloo+Thambi+2);
+.text-container>span {
+    font-family: "Baloo Thambi", cursive;
+    font-size:4.5rem;
+    text-transform: uppercase;
+    animation: glow 3s ease-in-out infinite;
+    animation-delay: var(--delay); }
+    
+body {
+        color: rgb(17, 103, 188);
+        background-color: #04082b;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family:"Baloo Thambi 2", cursive;
+        font-weight: 700;
+        font-size: 5rem;
+    }
+
+
+@keyframes glow {
+
+    0%,
+    100% {
+        color: var(--color);
+        text-shadow: 0 0 10px #108645, 0 0 50px #66CCCC, 0 0 100px #66CCCC;
+    }
+    10%
+    90% {
+        color: #111;
+        text-shadow: none;
+    }
+}
